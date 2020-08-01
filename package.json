@@ -1,0 +1,41 @@
+{
+  "name": "ponicode-answer",
+  "version": "1.0.0",
+  "description": "Technical test for Ponicode.",
+  "main": "src/index.ts",
+  "package": "build/index.js",
+  "scripts": {
+    "lint": "./bin/lint",
+    "start": "./bin/start"
+  },
+  "keywords": [
+    "ponicode"
+  ],
+  "author": "Alexandre Pielucha",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "n-readlines": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/n-readlines": "^1.0.1",
+    "@types/node": "^14.0.27",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^30.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  }
+}
